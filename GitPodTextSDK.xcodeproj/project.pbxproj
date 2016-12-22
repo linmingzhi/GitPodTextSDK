@@ -15,6 +15,7 @@
 		8D84F4911E0B7A1F00F2924A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D84F48F1E0B7A1F00F2924A /* LaunchScreen.storyboard */; };
 		8D84F49C1E0B7A1F00F2924A /* GitPodTextSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D84F49B1E0B7A1F00F2924A /* GitPodTextSDKTests.m */; };
 		8D84F4A71E0B7A1F00F2924A /* GitPodTextSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D84F4A61E0B7A1F00F2924A /* GitPodTextSDKUITests.m */; };
+		8D84F4B71E0B7B8900F2924A /* MyTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D84F4B61E0B7B8900F2924A /* MyTextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8D84F4A21E0B7A1F00F2924A /* GitPodTextSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitPodTextSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D84F4A61E0B7A1F00F2924A /* GitPodTextSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitPodTextSDKUITests.m; sourceTree = "<group>"; };
 		8D84F4A81E0B7A1F00F2924A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D84F4B51E0B7B8900F2924A /* MyTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextViewController.h; sourceTree = "<group>"; };
+		8D84F4B61E0B7B8900F2924A /* MyTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		8D84F4801E0B7A1F00F2924A /* GitPodTextSDK */ = {
 			isa = PBXGroup;
 			children = (
+				8D84F4B41E0B7B8900F2924A /* Classes */,
 				8D84F4841E0B7A1F00F2924A /* AppDelegate.h */,
 				8D84F4851E0B7A1F00F2924A /* AppDelegate.m */,
 				8D84F4871E0B7A1F00F2924A /* ViewController.h */,
@@ -138,6 +142,15 @@
 				8D84F4A81E0B7A1F00F2924A /* Info.plist */,
 			);
 			path = GitPodTextSDKUITests;
+			sourceTree = "<group>";
+		};
+		8D84F4B41E0B7B8900F2924A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8D84F4B51E0B7B8900F2924A /* MyTextViewController.h */,
+				8D84F4B61E0B7B8900F2924A /* MyTextViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 				8D84F4891E0B7A1F00F2924A /* ViewController.m in Sources */,
 				8D84F4861E0B7A1F00F2924A /* AppDelegate.m in Sources */,
 				8D84F4831E0B7A1F00F2924A /* main.m in Sources */,
+				8D84F4B71E0B7B8900F2924A /* MyTextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +521,7 @@
 				8D84F4AD1E0B7A1F00F2924A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D84F4AE1E0B7A1F00F2924A /* Build configuration list for PBXNativeTarget "GitPodTextSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				8D84F4B01E0B7A1F00F2924A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D84F4B11E0B7A1F00F2924A /* Build configuration list for PBXNativeTarget "GitPodTextSDKUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				8D84F4B31E0B7A1F00F2924A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
